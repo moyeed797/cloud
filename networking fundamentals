@@ -6,3 +6,16 @@ The notes show an example of FQDN mapping to an IP address (e.g., www.google.com
 TCP (Transmission Control Protocol) and UDP (User Datagram Protocol): These are transport layer protocols used for data transmission over a network.
 TCP is a connection-oriented and reliable protocol, ensuring data delivery and order.
 UDP is a connectionless and less reliable protocol, but it is faster and more efficient.
+DNS (Domain Name System) :
+The notes explain the general process of DNS resolution, where a computer (PC) uses a DNS resolver to translate a domain name into an IP address.
+It outlines the hierarchical nature of DNS, involving root servers, Top-Level Domain (TLD) servers, and authoritative name servers.
+The notes describe how the process starts with the PC querying its local DNS resolver, which might then interact with root, TLD, and authoritative servers to find the correct IP address.
+It mentions that the DNS resolver stores the resolved IP address in its cache memory for faster access in the future. 
+DHCP (Dynamic Host Configuration Protocol) :
+The notes define DHCP as a protocol that automatically assigns IP addresses and other network configuration information to devices on a network.
+It lists key information provided by DHCP, such as the IP address, subnet mask, and default gateway.
+The description highlights the automatic nature of DHCP, reducing the need for manual configuration and simplifying network management. 
+Relationship between DNS and DHCP :
+Although not explicitly stated in the notes, DHCP can also provide devices with the IP address of a DNS server as part of the configuration process. This allows the devices to use DNS for name resolution.
+DNS resolves domain names to IP addresses, while DHCP assigns IP addresses and other network parameters to devices.
+Together, DHCP and DNS work to enable seamless network connectivity and resource access, according to NordVPN.
