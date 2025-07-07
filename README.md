@@ -1,1 +1,1 @@
-# Starting myy journey with netwoeking and cloud funadamentals.
+# Starting my journey with networking and cloud funadamentals.
