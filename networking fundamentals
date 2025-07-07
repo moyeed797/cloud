@@ -1,0 +1,8 @@
+Networking Basics:
+IP Address: A unique identifier for devices to communicate over a network, like EC2 instances.
+DNS (Domain Name System): A hierarchical system that translates human-readable domain names into numerical IP addresses that computers use to communicate.
+FQDN (Fully Qualified Domain Name): The complete domain name of a host online, including the hostname, domain name, and top-level domain (TLD), ensuring accurate identification of a resource.
+The notes show an example of FQDN mapping to an IP address (e.g., www.google.com maps to 101.07.32.104).
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol): These are transport layer protocols used for data transmission over a network.
+TCP is a connection-oriented and reliable protocol, ensuring data delivery and order.
+UDP is a connectionless and less reliable protocol, but it is faster and more efficient.
