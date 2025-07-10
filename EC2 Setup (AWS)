@@ -1,0 +1,32 @@
+STEPS FOLLOWED TO LAUNCH MY FIRST EC2 AMAZON LINUX.
+
+Name	my-first-ec2
+Amazon Machine Image (AMI)	Amazon Linux 2023 (Free Tier eligible) ✅
+Instance Type	t2.micro (Free Tier eligible) ✅
+Key Pair	Create new key pair → Name it mykey → Download mykey.pem
+Network Settings	✅ Allow SSH (port 22) — choose My IP for security
+Storage	Leave as default (8 GB is fine)
+Tags	Optional — leave blank
+Advanced Settings	Ignore for now
+
+## Steps Followed
+- Launched Amazon Linux EC2 (Free Tier)
+- Configured SSH key pair: mykey.pem
+- Allowed access only from my IP
+- Connected to EC2 via SSH
+
+## What I Did
+- Created and launched EC2 (Amazon Linux 2023, t2.micro)
+- Created SSH key and used it to connect securely
+- Verified connection using Git Bash + SSH
+
+## Commands used in Git Bash for ec2 creation
+cd ~/Downloads               # Go to Downloads folder
+ls                           # List files there
+chmod 400 mykey.pem          # Secure your AWS key
+ssh -i "mykey.pem" ec2-user@ec2-3-...amazonaws.com   # Login to EC2
+# Git basics
+git init                     # Start repo
+git add .                    # Stage all files
+git commit -m "Message"      # Commit changes
+git push origin main         # Push to GitHub
