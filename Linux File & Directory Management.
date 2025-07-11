@@ -1,0 +1,45 @@
+# Linux File & Directory Management
+
+## 📍 Location
+Practiced on AWS EC2 (Amazon Linux) via Git Bash (SSH)
+
+---
+
+## 📂 Tasks Performed
+
+### ✅ Directory Structure
+- Created working directory `day7` with subfolders:
+  - `today/` (created + deleted)
+  - `note/` (used for final file storage)
+  - `archive/` (used for moving files)
+
+### ✅ Files Created
+- `morning.txt`, `evening.txt`, `night.txt`, `evng.txt`
+- Renamed `night.txt` → `start.txt`
+
+---
+
+## 🛠️ Linux Commands Practiced
+
+| Command | Description |
+|---------|-------------|
+| `mkdir` | Create new directory |
+| `cd` | Change directory |
+| `touch` | Create new empty file |
+| `echo` | Add text to file |
+| `cat` | Read file contents |
+| `cp` | Copy file |
+| `mv` | Move or rename file |
+| `rm` | Delete file |
+| `rm -r` | Delete directory recursively |
+| `ls`, `ls -R`, `ls -l` | List files and structure |
+
+---
+
+## 🔄 Final Folder Structure
+
+```bash
+day7/
+└── note/
+    ├── start.txt
+    └── evng.txt
