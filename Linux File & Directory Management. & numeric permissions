@@ -103,3 +103,7 @@ Value	Meaning	Symbolic
 755 ---	Everyone can read/execute, only owner can write	rwxr-xr-x
 400 ---	Read-only for owner	r--------
 777 ---	Everyone can do everything ⚠️	rwxrwxrwx
+
+
+
+
