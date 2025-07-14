@@ -104,6 +104,48 @@ Value	Meaning	Symbolic
 400 ---	Read-only for owner	r--------
 777 ---	Everyone can do everything ⚠️	rwxrwxrwx
 
+### 🐱 Linux `cat` Command — Functions & Usage
 
+The `cat` (concatenate) command is used to read, create, append, and merge text files in Linux.
+
+---
+
+## 📄 Common `cat` Functions
+
+| Command | Description |
+|---------|-------------|
+| `cat file.txt` | Displays the contents of `file.txt` |
+| `cat > file.txt` | Creates a new file and allows input (overwrites if exists); finish with `Ctrl + D` |
+| `cat >> file.txt` | Appends text to the end of an existing file |
+| `cat file1.txt file2.txt` | Displays contents of both files |
+| `cat file1.txt file2.txt > file3.txt` | Merges file1 and file2 into a new file3 |
+| `cat -n file.txt` | Shows file content with line numbers |
+| `cat` | Accepts input from user and displays it (until `Ctrl + D`) |
+
+---
+
+## 🧪 Example Practice
+
+```bash
+cat > hello.txt
+# Type: Hello world!
+# Press Ctrl + D
+
+cat hello.txt
+# Output: Hello world!
+
+cat >> hello.txt
+# Type: Adding more lines...
+# Press Ctrl + D
+
+cat hello.txt
+# Output:
+# Hello world!
+# Adding more lines...
+
+cat -n hello.txt
+# Output:
+#     1	Hello world!
+#     2	Adding more lines...
 
 
