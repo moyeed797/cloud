@@ -148,4 +148,18 @@ cat -n hello.txt
 #     1	Hello world!
 #     2	Adding more lines...
 
+## 🔁 File Transfer between Laptop ↔ EC2
+
+### 🔹 Upload from Laptop → EC2  (using **scp**)
+
+```bash
+scp -i "day9key.pem" day9.txt ec2-user@52.14.154.42:/home/ec2-user/
+Explanation:
+Part	Meaning
+scp -- Secure Copy command (transfer files over SSH)
+-i --	Tells scp which SSH private key to use
+"day9key.pem" --	Private key file used for authentication
+day9.txt --	File on my local laptop to send
+ec2-user@52.14.154.42 -- 	Username (ec2-user) and Public IP of EC2 server
+:/home/ec2-user/ --	Target folder inside EC2 where the file will be placed
 
