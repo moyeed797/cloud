@@ -19,3 +19,17 @@ Relationship between DNS and DHCP :
 Although not explicitly stated in the notes, DHCP can also provide devices with the IP address of a DNS server as part of the configuration process. This allows the devices to use DNS for name resolution.
 DNS resolves domain names to IP addresses, while DHCP assigns IP addresses and other network parameters to devices.
 Together, DHCP and DNS work to enable seamless network connectivity and resource access, according to NordVPN.
+
+
+
+## ✅ Networking Commands Practiced
+
+| Command                  | Purpose                                                          |
+|--------------------------|------------------------------------------------------------------|
+| `ip a`                   | Shows network interfaces and IP addresses (`inet`, `inet6`)       |
+| `hostname`              | Displays the hostname of the machine                              |
+| `ping google.com`       | Tests internet connectivity (ICMP packets)                        |
+| `netstat -rn`           | Shows routing table (default gateway, subnet)                     |
+| `nslookup google.com`   | Resolves DNS name to IP address                                   |
+
+---
